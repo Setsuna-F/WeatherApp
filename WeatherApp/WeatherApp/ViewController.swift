@@ -10,9 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var networkManager: NetworkManager!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let longitude:Double = 2.3488
+        let latitude:Double = 48.85341
+        
+        self.networkManager =  NetworkManager()
+        networkManager.getWeather(latitude: longitude, longitude: latitude) {weather, error in
+            if !error!.isEmpty {
+                print(error.debugDescription)
+            } else {
+                print(weather!)
+            }
+        }
+
     }
 
 
