@@ -1,0 +1,16 @@
+PODS:
+  - BSNetworking (1.0.0)
+
+DEPENDENCIES:
+  - BSNetworking (from `LocalPods/BSNetworking`)
+
+EXTERNAL SOURCES:
+  BSNetworking:
+    :path: LocalPods/BSNetworking
+
+SPEC CHECKSUMS:
+  BSNetworking: aa50143f14b823c12eafd645f6a4d1f275e0d075
+
+PODFILE CHECKSUM: 26c10505c91255843a08d69e6392a343e18c22af
+
+COCOAPODS: 1.6.0

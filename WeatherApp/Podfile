@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+
+#source 'https://github.com/CocoaPods/Specs.git'
+
+target 'WeatherApp' do
+	use_frameworks!
+    pod 'BSNetworking', path: 'LocalPods/BSNetworking'
+end

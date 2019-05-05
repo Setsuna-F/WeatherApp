@@ -1,0 +1,6 @@
+framework module BSNetworking {
+  umbrella header "BSNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
